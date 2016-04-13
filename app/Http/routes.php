@@ -18,3 +18,8 @@ Route::get('/', function () {
 Route::get('about', function(){
 	return 'About us';
 });
+
+Route::get('reporting', function(){
+	return 'Reporting feature';
+});
+
