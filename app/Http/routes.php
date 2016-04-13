@@ -30,3 +30,7 @@ Route::get('bugfixes', function(){
 Route::get('developer', function(){
 	return 'Selase';
 });
+
+Route::auth();
+
+Route::get('/home', 'HomeController@index');
