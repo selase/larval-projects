@@ -19,13 +19,14 @@ Route::get('about', function(){
 	return 'About us';
 });
 
-<<<<<<< HEAD
 Route::get('reporting', function(){
 	return 'Reporting feature';
 });
 
-=======
-Route::get('contactus', function(){
-	return 'Contact';
+Route::get('bugfixes', function(){
+	return 'BugFixes';
 });
->>>>>>> feature-reporting
+
+Route::get('developer', function(){
+	return 'Selase';
+});
